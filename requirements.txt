@@ -1,4 +1,4 @@
-# Core dependencies for phishing detector
+# Core dependencies for enhanced phishing detector
 
 # Machine Learning Dependencies (v2.0)
 pandas>=2.0.0
@@ -12,7 +12,17 @@ uvicorn>=0.24.0
 pydantic>=2.0.0
 python-multipart>=0.0.6
 
+# Enhanced ML Dependencies
+xgboost>=2.0.0        # Ensemble model
+lightgbm>=4.0.0       # Alternative gradient boosting
+imbalanced-learn>=0.11.0  # Handle imbalanced datasets
+
+# Advanced Feature Extraction
+validators>=0.22.0     # URL validation
+tldextract>=5.0.0     # TLD extraction
+python-Levenshtein>=0.23.0  # String similarity
+
 # Optional future enhancements:
 # nltk>=3.8          # Advanced NLP
 # beautifulsoup4>=4.12  # HTML email parsing
-# requests>=2.31.0   # URL reputation checking
+# requests>=2.31.0   # External API integration

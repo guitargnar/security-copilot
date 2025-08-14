@@ -1,0 +1,76 @@
+{
+  "models": [
+    "logistic_regression",
+    "random_forest",
+    "gradient_boosting",
+    "adaboost",
+    "naive_bayes",
+    "neural_network",
+    "svm",
+    "xgboost",
+    "lightgbm"
+  ],
+  "performance": {
+    "logistic_regression": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "auc": 0.9999999999999999
+    },
+    "random_forest": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "auc": 1.0
+    },
+    "gradient_boosting": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "auc": 1.0
+    },
+    "adaboost": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "auc": 0.9999999999999999
+    },
+    "naive_bayes": {
+      "error": "Negative values in data passed to MultinomialNB (input X)."
+    },
+    "neural_network": {
+      "accuracy": 0.995,
+      "precision": 0.995,
+      "recall": 0.995,
+      "f1": 0.995,
+      "auc": 0.99995
+    },
+    "svm": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "auc": 1.0
+    },
+    "xgboost": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "auc": 1.0
+    },
+    "lightgbm": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "auc": 1.0
+    }
+  },
+  "ensemble_type": "VotingClassifier",
+  "calibrated": true
+}
