@@ -1,0 +1,6 @@
+timestamp,message_id,sender,subject,classification,confidence,action_taken,urls_found
+2025-08-14T01:06:17.130888,198a6cfacc07f19a,MyHeritage Notification <notify2@myheritage.com>,Your Ethnicity Estimate results are ready (kit number MH-2G466U),legitimate,0.6337392738597356,scanned,5
+2025-08-14T01:06:17.360025,198a6cc11e7b688a,"""Phil @ ZipRecruiter"" <phil@ziprecruiter.com>","Matthew, I think this job might be right for you!",phishing,0.6904338246913317,scanned,9
+2025-08-14T01:06:17.578290,198a6794201b7e0d,MyHeritage Notification <notify2@myheritage.com>,Your verification code to log in to MyHeritage,phishing,0.5637755544510696,scanned,6
+2025-08-14T01:06:17.856464,198a678c0badd512,MyHeritage Notification <notify2@myheritage.com>,Login from a new device or location,phishing,0.5559124542292714,scanned,4
+2025-08-14T01:06:18.048042,198a6788c8ea9fe6,MyHeritage Notification <notify2@myheritage.com>,Your verification code to log in to MyHeritage,phishing,0.5787132434628799,scanned,6

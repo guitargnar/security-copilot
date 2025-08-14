@@ -1,1 +1,2 @@
 {"text": "Your order from Amazon has shipped", "true_label": "legitimate", "predicted_label": "phishing", "confidence": 0.75, "timestamp": "2025-08-14T00:29:15.581714"}
+{"text": "Your Amazon order has shipped. Track at amazon.com/orders", "true_label": "legitimate", "predicted_label": "phishing", "confidence": 0.65, "timestamp": "2025-08-14T00:48:59.935473"}
